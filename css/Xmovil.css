@@ -1,0 +1,32 @@
+
+    .mainHeaderPerfil{
+        margin-bottom: 40px;
+    } 
+
+    .mainPerfilGrid{
+        grid-template-columns: minmax(190px, 1fr);
+    }
+    .mainPerfilGrid__img-container{
+        padding-top: 10px;
+    }
+    .mainPerfilGrid__article{
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+
+    .main-header{
+        height: 150px;
+    }
+    .blogsMainMarginTop{
+        margin-top: 20px;
+    }
+
+
+    .mainBlogGrid{
+        grid-template-columns: minmax(190px, 2fr);
+    }
+    .mainBlogGrid__article{
+        grid-column: 1;
+        grid-row: 3;
+    }
