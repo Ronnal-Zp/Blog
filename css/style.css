@@ -474,6 +474,9 @@ footer a:hover{
     border-bottom: 1px solid var(--primaryColor);
     color: var(--primaryColor);
 }
+.proyectsContainer article > a{
+    border-bottom: none;
+}
 
 
 @media (max-width: 414px) {
